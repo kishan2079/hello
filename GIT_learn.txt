@@ -1,0 +1,22 @@
+git config --global user.name Kishan Gupta
+git config --global user.mail kishangupta2079@gmail.com
+code .			>>open vs code
+git init		>>initialize new repo/dir
+ls -lart		>>show all files and folder including hidden
+git add dep_logs_check.py
+git commit		>>vm editor		>>initailize commit		>>:wq
+touch Kishan.py
+touch Gupta.py
+git add -A		>>add all files at once
+git commit -m "More files added"
+git checkout Gupta.py			>>restore mentioned file to last commit
+git checkout -f					>>restore all files to last commit
+git log			>>check all commits
+git log -p -5	>>check last 5 commits
+git diff						>>compare working dir with staging area
+git diff --staged				>>compare last commit with staging area
+git commit -a -m "skipped staging and commmit"
+git rm --cached waste.py		>>only remove from staging
+git rm waste.py					>>delete file from all stages
+git status -s
+
